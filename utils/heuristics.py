@@ -269,9 +269,7 @@ if __name__ == "__main__":
     args["model"] = args_base["model"]
     D = {}
     D_N = {}
-    #heuristics = ['GDD', 'GG', 'CELF']
-    heuristics = ['CELF']
-    args["heuristic"] = args_base["h"]
+    args["heuristic"] = args_base["method"]
     for c in choices:
         args["graph"] = c
         

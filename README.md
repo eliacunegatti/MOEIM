@@ -46,7 +46,7 @@ python influence_maximization.py \
 
 To run CELF/GDD (it runs on default on all datasets):
 ```
-python heuristic.py /
+python utils/heuristic.py /
      --model WC \
      --method CELF \
 ```
