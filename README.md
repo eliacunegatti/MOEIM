@@ -49,7 +49,6 @@ To run CELF/GDD (it runs on default on all datasets):
 python heuristic.py /
      --model WC \
      --method CELF \
-
 ```
 ### Experimental setting 2
 To run MOEAIM (it runs on default with jazz dataset, to be changed using --dataset args):
