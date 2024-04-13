@@ -28,7 +28,7 @@ conda install --file requirements.txt
 Here we provide the main commands to use our codebase as well as reproducing the original results.
 
 ### Experimental setting 1
-To run MOEAIM (it runs on default with jazz dataset, to be changed using --dataset args):
+To run MOEAIM (it runs on default with jazz dataset, to be changed using --graph args):
 ```
 python influence_maximization.py \
     --model WC \
@@ -36,7 +36,7 @@ python influence_maximization.py \
     --version graph-aware \
 ```
 
-To run MOEA (it runs on default with jazz dataset, to be changed using --dataset args):
+To run MOEA (it runs on default with jazz dataset, to be changed using --graph args):
 ```
 python influence_maximization.py \
     --model WC \
@@ -51,7 +51,7 @@ python utils/heuristic.py /
      --method CELF \
 ```
 ### Experimental setting 2
-To run MOEAIM (it runs on default with jazz dataset, to be changed using --dataset args):
+To run MOEAIM (it runs on default with jazz dataset, to be changed using --graph args):
 ```
 python influence_maximization.py \
     --method WC \
