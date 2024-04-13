@@ -1,0 +1,7 @@
+dataset,model,1,5,10,20
+cora-ml_un,WC,14.1,28.1,39.6,52.4
+cora-ml_un,LT,13.4,69.2,83.5,94.1
+jazz_un,WC,4.9,23.3,41.5,49.9
+jazz_un,LT,1.9,6.5,16.4,99.1
+power_grid_un,WC,6.3,21.0,32.5,52.4
+power_grid_un,LT,6.3,24.4,46.8,71.7
