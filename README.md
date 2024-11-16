@@ -1,11 +1,16 @@
 # MOEIM
 
 **Many-Objective Evolutionary Influence Maximization: Balancing Spread, Budget, Fairness, and Time** </br>
-*To appear at Gecco 2024* </br>
+*Accepted at Gecco 2024* </br>
 Elia Cunegatti, Leonardo Lucio Custode, Giovanni Iacca <br>
 University of Trento, Italy  <br>
-[![arXiv](https://img.shields.io/badge/arXiv-2404.05621-b31b1b.svg)](https://arxiv.org/pdf/2403.18755.pdf)
- 
+[![arXiv](https://img.shields.io/badge/arXiv-2404.05621-b31b1b.svg)](https://arxiv.org/pdf/2403.18755.pdf) [![ACM Digital Library](https://img.shields.io/badge/ACM-DL-blue.svg)](https://dl.acm.org/doi/10.1145/3638530.3654161)
+
+
+
+ >**Abstract**
+The Influence Maximization (IM) problem seeks to discover the set of nodes in a graph that can spread the information propagation at most. This problem is known to be NP-hard, and it is usually studied by maximizing the influence (*spread*) and, optionally, optimizing a second objective, such as minimizing the *seed set size* or maximizing the influence *fairness*. However, in many practical scenarios multiple aspects of the IM problem must be optimized at the same time. In this work, we propose a first case study where several IM-specific objective functions, namely *budget*, *fairness*, *communities*, and *time*, are optimized on top of the maximization of *influence* and minimization of the *seed set size*. To this aim, we introduce MOEIM (Many-Objective Evolutionary Algorithm for Influence Maximization), a Multi-Objective Evolutionary Algorithm (MOEA) based on NSGA-II incorporating graph-aware operators and a smart initialization. We compare MOEIM in two experimental settings, including a total of nine graph datasets, two heuristic methods, a related MOEA, and a state-of-the-art Deep Learning approach. The experiments show that MOEIM overall outperforms the competitors in most of the tested many-objective settings. To conclude, we also investigate the correlation between the objectives, leading to novel insights into the topic.
+>
 
 ```bibtex
 @article{cunegatti2024many,
