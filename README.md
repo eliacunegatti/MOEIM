@@ -1,9 +1,12 @@
 # MOEIM
 
 **Many-Objective Evolutionary Influence Maximization: Balancing Spread, Budget, Fairness, and Time** </br>
+
 *Accepted at Gecco 2024* </br>
+
 Elia Cunegatti, Leonardo Lucio Custode, Giovanni Iacca <br>
-University of Trento, Italy  <br>
+University of Trento, Italy  <be>
+
 [![arXiv](https://img.shields.io/badge/arXiv-2404.05621-b31b1b.svg)](https://arxiv.org/pdf/2403.18755.pdf) [![ACM Digital Library](https://img.shields.io/badge/ACM-DL-blue.svg)](https://dl.acm.org/doi/10.1145/3638530.3654161)
 
 
