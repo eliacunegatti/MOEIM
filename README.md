@@ -16,10 +16,11 @@ The Influence Maximization (IM) problem seeks to discover the set of nodes in a 
 >
 
 ```bibtex
-@article{cunegatti2024many,
-  title={Many-Objective Evolutionary Influence Maximization: Balancing Spread, Budget, Fairness, and Time},
-  author={Cunegatti, Elia and Custode, Leonardo Lucio and Iacca, Giovanni},
-  journal={arXiv preprint arXiv:2403.18755},
+@inproceedings{cunegatti2024many,
+  title={Many-objective evolutionary influence maximization: Balancing spread, budget, fairness, and time},
+  author={Cunegatti, Elia and Custode, Leonardo and Iacca, Giovanni},
+  booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+  pages={655--658},
   year={2024}
 }
 ```
